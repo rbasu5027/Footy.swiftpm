@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct midfieldersC:  View {
+    var body: some View {
+        VStack{
+            Text("Pedri")
+        }
+    }
+    
+}
+

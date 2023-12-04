@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct forwardsC:  View {
+    var body: some View {
+        VStack{
+            Text("Haaland")
+        }
+    }
+    
+}
+
