@@ -10,10 +10,37 @@ import SwiftUI
 
 struct midfieldersC:  View {
     var body: some View {
-        VStack{
-            Text("Pedri")
+        ScrollView {
+            
+            VStack(alignment: .leading){
+           
+                Text("Pedri González")
+                    .font(.largeTitle)
+                    .bold()
+                    .underline()
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.yellow)
+                    
+               Spacer()
+                Text("Jamal Musiala")
+                    .font(.largeTitle)
+                    .bold()
+                    .underline()
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.red)
+                
+                Spacer()
+                Text("Jude Bellingham")
+                    .font(.largeTitle)
+                    .bold()
+                    .underline()
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.purple)
+                    
+            }
+
         }
     }
-    
 }
+
 

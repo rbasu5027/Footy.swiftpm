@@ -15,22 +15,25 @@ struct Page1:  View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    
+                    Spacer()
                     NavigationLink(destination: forwardsC()) {
                         Text("Compare the Next-Gen Forwards")
                             .foregroundColor(.white)
-                            .font(.title3)
-                    }
+                            .font(.largeTitle)
+                                                }
+                    Spacer()
                     NavigationLink(destination: midfieldersC()) {
-                        Text("Comapare the Next-Gen Midfielders")
+                        Text("Compare the Next-Gen Midfielders")
                             .foregroundColor(.white)
-                            .font(.title3)
+                            .font(.largeTitle)
                     }
+                    Spacer()
                     NavigationLink(destination: defendersC()) {
-                        Text("Compare Next-Gen Defenders")
+                        Text("Compare the Next-Gen Defenders")
                             .foregroundColor(.white)
-                            .font(.title3)
+                            .font(.largeTitle)
                     }
+                    Spacer()
                 }
             }
         }

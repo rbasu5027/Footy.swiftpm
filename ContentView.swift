@@ -11,15 +11,17 @@ struct ContentView: View {
                     Text("Player Comparisons (Young Talent) ")
                         .font(.largeTitle)
                         .foregroundColor(.white)
+                        .bold()
 
                     Image(systemName: "soccerball")
                         .font(.largeTitle)
                         .foregroundColor(.white)
                         .padding()
                         .padding()
+                        
 
                     NavigationLink(destination: Page1()) {
-                        Text("Click Here")
+                        Text("Click Here to Start")
                             .foregroundColor(.white)
                             .font(.title3)
                     }
