@@ -13,22 +13,28 @@ struct defendersC:  View {
         ScrollView {
             
             VStack(alignment: .leading){
-           
+                
                 Text("Ronald Araújo")
                     .font(.largeTitle)
                     .bold()
                     .underline()
                     .multilineTextAlignment(.center)
                     .foregroundColor(.blue)
-                
-               Spacer()
+                Image("Araujo")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
+                Spacer()
                 Text("Matthijs de Ligt")
                     .font(.largeTitle)
                     .bold()
                     .underline()
                     .multilineTextAlignment(.center)
                     .foregroundColor(.red)
-                
+                Image("De")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
                 Spacer()
                 Text("Éder Militão")
                     .font(.largeTitle)
@@ -36,6 +42,10 @@ struct defendersC:  View {
                     .underline()
                     .multilineTextAlignment(.center)
                     .foregroundColor(.purple)
+                Image("eder")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
             }
 
         }

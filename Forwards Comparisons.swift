@@ -25,7 +25,10 @@ struct forwardsC:  View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.blue)
                     .opacity(0.5)
-                
+                Image("Halland")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
                Spacer()
                 Text("Kylian Mbappe - The Dominant Ninja Turtle")
                     .font(.largeTitle)
@@ -33,7 +36,10 @@ struct forwardsC:  View {
                     .underline()
                     .multilineTextAlignment(.center)
                     .foregroundColor(.blue)
-                
+                Image("Mbappe")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
                 Spacer()
                 Text("Vinicius Jr. - Certified Crybaby")
                     .font(.largeTitle)
@@ -41,6 +47,10 @@ struct forwardsC:  View {
                     .underline()
                     .multilineTextAlignment(.center)
                     .foregroundColor(.purple)
+                Image("VINIJR")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
             }
 
         }
