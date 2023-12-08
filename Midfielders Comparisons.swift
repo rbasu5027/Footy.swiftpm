@@ -9,12 +9,14 @@ import Foundation
 import SwiftUI
 
 struct midfieldersC:  View {
+    @ObservedObject var viewModel = PlayerViewModel()
+
     var body: some View {
         ScrollView {
             
             VStack(alignment: .leading){
                 
-                Text("Pedri González - Spaniard Youngster")
+                Text("Pedri González")
                     .font(.largeTitle)
                     .bold()
                     .underline()
@@ -27,7 +29,7 @@ struct midfieldersC:  View {
                     .clipShape(Circle())
                     
                Spacer()
-                Text("Jamal Musiala - Wonder Boy")
+                Text("Jamal Musiala")
                     .font(.largeTitle)
                     .bold()
                     .underline()
@@ -40,7 +42,7 @@ struct midfieldersC:  View {
                     .clipShape(Circle())
                 
                 Spacer()
-                Text("Jude Bellingham - English Monkey")
+                Text("Jude Bellingham")
                     .font(.largeTitle)
                     .bold()
                     .underline()
