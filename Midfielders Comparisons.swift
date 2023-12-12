@@ -14,7 +14,7 @@ struct midfieldersC:  View {
             
             VStack(alignment: .leading){
                 
-                Text("Pedri González - Spaniard Youngster")
+                Text("Pedri González")
                     .font(.largeTitle)
                     .bold()
                     .underline()
@@ -25,9 +25,10 @@ struct midfieldersC:  View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
+                    .frame(width: 325, height: 325)
                     
                Spacer()
-                Text("Jamal Musiala - Wonder Boy")
+                Text("Jamal Musiala")
                     .font(.largeTitle)
                     .bold()
                     .underline()
@@ -38,9 +39,10 @@ struct midfieldersC:  View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
+                    .frame(width: 325, height: 325)
                 
                 Spacer()
-                Text("Jude Bellingham - English Monkey")
+                Text("Jude Bellingham")
                     .font(.largeTitle)
                     .bold()
                     .underline()
@@ -51,6 +53,7 @@ struct midfieldersC:  View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
+                    .frame(width: 325, height: 325)
             }
 
         }
