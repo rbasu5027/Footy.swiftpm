@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 
 struct midfieldersC:  View {
+    @ObservedObject var viewModel = PlayerViewModel()
+
     var body: some View {
         ScrollView {
             
